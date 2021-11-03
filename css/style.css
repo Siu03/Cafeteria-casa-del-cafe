@@ -5,3 +5,26 @@
 * {
     font-family: 'Architects Daughter', cursive;
 }
+
+body {
+    font-weight: bold;
+}
+
+.navbar-center { 
+    position: absolute; 
+    left: 50%; 
+    transform: translatex(-50%); 
+}
+
+button>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button>a:hover {
+    color: #a8f72b;
+}
+
+div>a>img {
+    width: 180px;
+}
