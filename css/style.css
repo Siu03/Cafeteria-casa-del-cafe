@@ -1,6 +1,7 @@
 /* GOOGLE FONTS */
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 * {
     font-family: 'Architects Daughter', cursive;
@@ -27,4 +28,25 @@ button>a:hover {
 
 div>a>img {
     width: 180px;
+}
+
+.img-borrosa {
+    filter: blur(5px);
+}
+
+.text-font {
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    text-shadow: 3px 3px #232323;
+    max-width: auto;
+}
+
+.altura__img {
+    height: 650px;
+}
+
+@media (min-width: 700px) {
+    .text-font {
+        font-size: 50px;
+    }
 }
