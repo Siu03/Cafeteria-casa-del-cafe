@@ -9,6 +9,7 @@
 
 body {
     font-weight: bold;
+    background-image: url("https://www.franquiciasdecafe.com.mx/wp-content/uploads/2013/05/concejos-para-abrir-cafeteria.jpg") none no-repeat fixed;
 }
 
 .navbar-center { 
@@ -45,8 +46,23 @@ div>a>img {
     height: 650px;
 }
 
-@media (min-width: 700px) {
+.texto__principal h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+/* Media Q*/
+
+@media (max-width: 700px) {
     .text-font {
-        font-size: 50px;
+        font-size: 40px;
     }
+
+    .texto__principal h2 {
+        font-size: 40px;
+    }
+
+    .p-5 {
+        padding: 1rem !important;
+    };
 }
