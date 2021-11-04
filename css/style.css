@@ -51,6 +51,11 @@ div>a>img {
     font-size: 80px;
 }
 
+.h-10 {
+    height: 400px;
+    filter: blur(10px);
+}
+
 /* Media Q*/
 
 @media (max-width: 700px) {
